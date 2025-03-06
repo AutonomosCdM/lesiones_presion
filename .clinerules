@@ -20,18 +20,24 @@
 - CNN architectures effective for medical image analysis
 - Importance of diverse, representative training data
 - Continuous model retraining critical for accuracy
+- LlamaIndex enables sophisticated agent orchestration (New)
+- Human-in-the-loop validation improves clinical accuracy (New)
 
 ### System Architecture
 
 - Event-driven communication enhances scalability
 - API Gateway crucial for secure external access
 - Microservices enable independent component development
+- Python virtual environments preferred for LlamaIndex development (New)
+- Fine-tuned embeddings improve medical domain understanding (New)
 
 ### Development Workflow
 
 - Git flow branching model ensures stable releases
 - Automated testing reduces integration risks
 - Continuous monitoring essential for system reliability
+- MCP Git server useful for repository analysis (New)
+- Virtual environments provide better dependency isolation than Docker for development (New)
 
 ## Performance Optimization Strategies
 
@@ -39,11 +45,13 @@
    - Prioritize model compression techniques
    - Implement model pruning and quantization
    - Balance accuracy with inference speed
+   - Fine-tune embeddings for medical domain (New)
 
 2. Infrastructure Scaling
    - Kubernetes for dynamic resource allocation
    - Implement horizontal pod autoscaling
    - Use Redis for caching and performance improvement
+   - Virtual environments for development, Docker for production (New)
 
 ## Compliance and Ethical Considerations
 
@@ -51,11 +59,13 @@
    - Strict HIPAA and GDPR compliance
    - Implement end-to-end encryption
    - Anonymize patient data during training
+   - Human validation ensures ethical decision-making (New)
 
 2. Bias Mitigation
    - Regular bias detection in AI models
    - Diverse, representative training datasets
    - Transparent model decision-making
+   - Human-in-the-loop validation reduces algorithmic bias (New)
 
 ## Technology Preferences
 
@@ -64,14 +74,37 @@
 - Next.js for frontend development
 - FastAPI for backend services
 - PyTorch for AI model development
-- LlamaIndex for knowledge management
+- LlamaIndex for knowledge management and agent orchestration (Updated)
 
 ### Recommended Tools
 
-- Docker for containerization
+- Docker for containerization (production)
 - Kubernetes for orchestration
 - Prometheus for monitoring
 - Sentry for error tracking
+- Python virtual environments for development (New)
+- MCP Git server for repository analysis (New)
+
+### LlamaIndex Components (New)
+
+- finetune-embedding: For specialized medical embeddings
+- human_in_the_loop_workflow_demo: For clinical validation workflows
+- multi-agents-workflow: For agent orchestration
+- python-agents-tutorial: For agent implementation patterns
+
+## Environment Management (New)
+
+1. Development Environment
+   - Use Python virtual environments (venv) for LlamaIndex development
+   - Maintain separate environments for different components
+   - Use dotenv for environment variable management
+   - Prefer local development for faster iteration
+
+2. Production Environment
+   - Use Docker containers for consistent deployment
+   - Implement Kubernetes for orchestration
+   - Configure horizontal scaling for high availability
+   - Implement robust monitoring and alerting
 
 ## Future Exploration Areas
 
@@ -79,11 +112,13 @@
    - Integrate more advanced transfer learning
    - Explore few-shot learning techniques
    - Implement continuous learning mechanisms
+   - Develop specialized medical embeddings (New)
 
 2. Enhanced User Experience
    - Develop more intuitive conversational interfaces
    - Implement personalized risk communication
    - Create adaptive user dashboards
+   - Add streaming responses for real-time feedback (New)
 
 ## Decision Making Principles
 
@@ -92,6 +127,7 @@
 3. Ensure scalable, maintainable solutions
 4. Continuous learning and improvement
 5. Transparent and ethical AI development
+6. Balance automation with human validation (New)
 
 ## Version Control
 
