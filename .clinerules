@@ -1,0 +1,100 @@
+# Project Intelligence for LPP Detection AI System
+
+## Core Principles
+
+1. Patient-Centric Design
+   - Prioritize early detection and prevention
+   - Focus on reducing patient suffering
+   - Minimize manual intervention
+
+2. Technical Excellence
+   - Modular, scalable architecture
+   - Continuous model improvement
+   - Rigorous testing and validation
+
+## Key Learnings
+
+### AI Development
+
+- Multi-agent framework provides flexibility
+- CNN architectures effective for medical image analysis
+- Importance of diverse, representative training data
+- Continuous model retraining critical for accuracy
+
+### System Architecture
+
+- Event-driven communication enhances scalability
+- API Gateway crucial for secure external access
+- Microservices enable independent component development
+
+### Development Workflow
+
+- Git flow branching model ensures stable releases
+- Automated testing reduces integration risks
+- Continuous monitoring essential for system reliability
+
+## Performance Optimization Strategies
+
+1. Model Efficiency
+   - Prioritize model compression techniques
+   - Implement model pruning and quantization
+   - Balance accuracy with inference speed
+
+2. Infrastructure Scaling
+   - Kubernetes for dynamic resource allocation
+   - Implement horizontal pod autoscaling
+   - Use Redis for caching and performance improvement
+
+## Compliance and Ethical Considerations
+
+1. Data Privacy
+   - Strict HIPAA and GDPR compliance
+   - Implement end-to-end encryption
+   - Anonymize patient data during training
+
+2. Bias Mitigation
+   - Regular bias detection in AI models
+   - Diverse, representative training datasets
+   - Transparent model decision-making
+
+## Technology Preferences
+
+### Preferred Frameworks
+
+- Next.js for frontend development
+- FastAPI for backend services
+- PyTorch for AI model development
+- LlamaIndex for knowledge management
+
+### Recommended Tools
+
+- Docker for containerization
+- Kubernetes for orchestration
+- Prometheus for monitoring
+- Sentry for error tracking
+
+## Future Exploration Areas
+
+1. Expand AI capabilities
+   - Integrate more advanced transfer learning
+   - Explore few-shot learning techniques
+   - Implement continuous learning mechanisms
+
+2. Enhanced User Experience
+   - Develop more intuitive conversational interfaces
+   - Implement personalized risk communication
+   - Create adaptive user dashboards
+
+## Decision Making Principles
+
+1. Prioritize patient outcomes
+2. Maintain technical flexibility
+3. Ensure scalable, maintainable solutions
+4. Continuous learning and improvement
+5. Transparent and ethical AI development
+
+## Version Control
+
+- Current Project Phase: Active Development
+- Last Major Update: March 2025
+- Versioning Strategy: Semantic Versioning (Major.Minor.Patch)
